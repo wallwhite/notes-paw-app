@@ -1,0 +1,44 @@
+.card {
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    align-items: center;
+    gap: 16px;
+    height: fit-content;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.iconType {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary200);
+    color: var(--color-contrast-white);
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    
+    svg {
+        width: 16px;
+        height: 16px;
+    }   
+}
+
+.description {
+    color: var(--color-grayscale200);
+}
+
+.completed {
+    text-decoration: line-through;
+}

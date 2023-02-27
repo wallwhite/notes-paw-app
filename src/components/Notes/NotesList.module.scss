@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 64px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.actions {  
+    justify-self: right;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 320px; 
+}

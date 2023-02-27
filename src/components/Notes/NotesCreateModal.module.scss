@@ -1,0 +1,39 @@
+.modalBody {
+    width: 550px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.modalDescription {
+    color: var(--color-grayscale200);
+}
+
+.formFields {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.formSplitRow {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.validationError {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 16px;
+    color: var(--color-primary300);
+    background-color: var(--color-primary100);
+    border-radius: 10px;
+}

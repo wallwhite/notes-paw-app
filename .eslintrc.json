@@ -1,0 +1,23 @@
+{
+    "extends": "@wallwhite/eslint-config-react-ts",
+    "ignorePatterns": [
+        "**/*.spec.ts{,x}",
+        "**/*.test.ts{,x}",
+        "**/spec/**",
+        "dist"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/button-has-type": 0,
+        "import/no-extraneous-dependencies": [
+            "error",
+            {
+                "devDependencies": [
+                    "**/*.spec.ts{,x}",
+                    "**/*.test.ts{,x}",
+                    "**/spec/**"
+                ]
+            }
+        ]
+    }
+}
